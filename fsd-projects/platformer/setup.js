@@ -92,7 +92,7 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "images/collectables/database.png" },
+  database: { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZU5k4dGF90KJBrRATbbFvC7c5q4jIj6uo2xeL2V_cyzgAT5E:https://i.pinimg.com/736x/28/6c/b9/286cb93c33c9f55331d11d6909e74ed0.jpg&s" },
   diamond: { image: "images/collectables/diamond-head.png" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
