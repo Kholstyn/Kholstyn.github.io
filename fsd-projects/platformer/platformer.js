@@ -16,7 +16,7 @@ $(function () {
       setInterval(main, 1000 / frameRate);
     }
 
-    // Create walls - do not delete or modify this code
+   // Create walls - do not delete or modify this code
     createPlatform(-50, -50, canvas.width + 100, 50); // top wall
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
@@ -37,7 +37,7 @@ createPlatform(800, 600, 50, 50, "red");
 createPlatform(1150, 500, 50, 50, "red");
 createPlatform(850, 500, 50, 50, "red");
 createPlatform(600, 400, 50, 50, "red");
-createPlatform(100, 400, 200, 20, "blue", 300, 500, 1)
+createPlatform(100, 400, 200, 20, "blue", 300, 500, 500)
 createPlatform(300, 300, 50, 50, "red");
 createPlatform(1350, 400, 50, 50, "red");
 createPlatform(1150, 300, 50, 50, "red");
@@ -55,10 +55,10 @@ createCollectable("database", 100, 100);
     
     // TODO 4 - Create Cannons
 createCannon("top", 200, 750);
-createCannon("right", 300, 2000);
-createCannon("top", 700, 2000);
-    
-    
+createCannon("right", 300, 900);
+createCannon("top", 700, 900);
+createCannon("right", 100, 950);
+createCannon("top", 500, 900);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
